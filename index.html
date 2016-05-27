@@ -1,17 +1,12 @@
 <html>
 <head>
 </head>
-<body onload="switch()">
-<h1 id="h123">Handling Phonegap</h1>
-<textarea id="debugtext" rows="100" cols="100">
-
-</textarea>
+<body onload="bodyOnLoad()">
 <script>
-  function switch(){
-    window.location = "www/index.html";
-  }
-  document.getElementById("debugtext").innerHTML("i am here");
-  document.getElementById("h123").setAttribute("style", "color: green");
+function bodyOnLoad(){
+  window.location = "www/index.html";
+}
+
 </script>
 </body>
 </html>
